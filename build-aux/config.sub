@@ -2,7 +2,7 @@
 # Configuration validation subroutine script.
 #   Copyright 1992-2016 Free Software Foundation, Inc.
 
-timestamp='2016-11-04'
+timestamp='2018-02-16'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -1544,6 +1544,8 @@ case $os in
 	-ios)
 		;;
 	-none)
+		;;
+	-robigalia)
 		;;
 	*)
 		# Get rid of the `-' at the beginning of $os.
