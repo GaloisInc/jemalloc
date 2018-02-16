@@ -5604,6 +5604,9 @@ case "${host}" in
   *-*-bitrig*)
 	abi="elf"
 	;;
+  *-*-robigalia*)
+	abi="elf"
+	;;
   *-*-linux-android)
 		T_APPEND_V=-D_GNU_SOURCE
   if test "x${CPPFLAGS}" = "x" -o "x${T_APPEND_V}" = "x" ; then
